@@ -2,6 +2,8 @@ const express = require('express')
 const helmet = require('helmet') //provides simple security defaults
 const server = express()
 
+const db = require('./database/connection')
+
 server.use(helmet())
 
 server.get('/', (req, res) => {

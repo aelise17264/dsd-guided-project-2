@@ -1,5 +1,9 @@
 # dsd-guided-project-2
 
+configure knex connections
+-npm i -g knex
+- knex init
+
 migration is a map of the changes you have made to your code
 commonly used migration commands
 -- npx knex migrate: make name...
